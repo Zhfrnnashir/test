@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/loco-scroll.css">
+    <link rel="stylesheet" type="text/css" href="/work/style.css">
+    <title>Zhafran</title>
+</head>
+<body id="body" data-scroll-container>
+    <nav class="navbar">
+        <div class="logo">
+            <h4>Zhafran</h4>
+        </div>
+        <ul class="slide">
+            <li><a href="/index.html" class="_line">Home</a></li>
+            <li><a href="/about/index.html" class="_line">About</a></li>
+            <li><a href="/service/index.html" class="_line">Service</a></li>
+            <li><a href="/work/index.html" class="_line">Work</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <main data-scroll-section>
+        <div class="filterBtnContainer">
+            <button class="filterBtn filterActive" onclick="filterSelection('all')">Show all</button>
+            <button class="filterBtn" onclick="filterSelection('nature')">Nature</button>
+            <button class="filterBtn" onclick="filterSelection('cars')">Cars</button>
+            <button class="filterBtn" onclick="filterSelection('people')">People</button>
+          </div>
+          <div class="filterRow">
+            <div class="filterColumn nature">
+              <div class="filterContent">
+                <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Mountains" style="width:100%">
+                <h4>Mountains</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="filterColumn nature">
+              <div class="filterContent">
+              <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Lights" style="width:100%">
+                <h4>Lights</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="filterColumn nature">
+              <div class="filterContent">
+              <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Nature" style="width:100%">
+                <h4>Forest</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            
+            <div class="filterColumn cars">
+              <div class="filterContent">
+                <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Car" style="width:100%">
+                <h4>Retro</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="filterColumn cars">
+              <div class="filterContent">
+              <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Car" style="width:100%">
+                <h4>Fast</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="filterColumn cars">
+              <div class="filterContent">
+              <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Car" style="width:100%">
+                <h4>Classic</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+          
+            <div class="filterColumn people">
+              <div class="filterContent">
+                <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Car" style="width:100%">
+                <h4>Girl</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="filterColumn people">
+              <div class="filterContent">
+              <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Car" style="width:100%">
+                <h4>Man</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="filterColumn people">
+              <div class="filterContent">
+              <img src="https://source.unsplash.com/vjMgqUkS8q8" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+              </div>
+            </div>
+          <!-- END GRID -->
+          </div>
+          
+          <!-- END MAIN -->
+          </div>
+          <div class="container-xl">
+            <button data-scroll data-scroll-sticky data-scroll-target="#body" class="cta-primary" onclick="colorChange()">Dark Mode</button>
+        </div>
+    <div class="_about">
+        <a href="#">
+            <div class="aboutImage">
+                <img data-scroll data-scroll-speed="-2" src="https://source.unsplash.com/vjMgqUkS8q8">
+            </div>
+            <div class="container-md">
+                <h2>About Insight-led design is at the heart of our work; from strategy, through to brand creation and digital experiences.</h2>
+            </div>
+        </a>
+        <div class="clear"></div>
+    </div>
+    <div class="_footer">
+        <div class="footerContent">
+            <div class="footerLeft footerColumn">
+                <a class="email" href = "mailto: abc@example.com">zhfrnnashir@gmail.com</a>
+                <a class="phone" href = "mailto: abc@example.com">(+49) 40 46 77 32</a>
+            </div>
+            <div class="footerRight footerColumn">
+                <h1>Hamburg based design studio creating aesthetic and easy to use products.</h1>
+                <ul class="rightLink">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Awwwards</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    </main>
+    <script src="/js/loco-scroll.min.js"></script>
+    <script src="/main.js"></script>
+    <script src="/work/main.js"></script>
+</body>
+</html>
