@@ -3,8 +3,15 @@ const scroll = new LocomotiveScroll({
     smooth: true,
     getDirection: true,
     lerp: 0.02,
-    smartphone: true,
-});
+    mobile: {
+        smooth: true,
+        getDirection: true,
+      },
+      tablet: {
+        smooth: true,
+        getDirection: true,
+      },
+   });
 
 scroll.on('scroll', (instance) => {
     document.documentElement.setAttribute('data-direction', instance.direction)
@@ -26,4 +33,3 @@ function colorChange(){
    if(button.textContent == 'Turn on the light')button.textContent='Turn off the light';
    else button.textContent='Turn on the light';
 }
-
